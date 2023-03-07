@@ -9,11 +9,10 @@ $(document).ready(function() {
             $('#nova-tarefa').val('');       
         
         
-        $('li').click(function() {
+        $(novoItem).click(function() {
             console.log("elemento foi clicado");
-                $(this).attr("style", "text-decoration: line-through");
-
-    })
+                $(novoItem).attr("style", "text-decoration: line-through");
+            })
     
 })
 
